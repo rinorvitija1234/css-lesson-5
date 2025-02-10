@@ -1,0 +1,32 @@
+div#static{
+    position: static;
+    border: 3px solid #000;
+    width: 250px ;
+    height: 250px;
+    padding: 20px; 
+}
+h1{
+    background-color: blue;
+    color: #000;
+}
+
+div#relative{
+    position: relative;
+    border: 3px solid #000;
+    width: 250px ;
+    height: 250px;
+    padding: 20px; 
+    left:300px ;
+    top:50px ;
+}
+ 
+
+div#fixed{
+    position: fixed;
+    border: 3px solid #000;
+    width: 250px ;
+    height: 250px;
+    padding: 20px; 
+    right: 300px;
+    top:200px ;
+}
